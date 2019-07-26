@@ -11,11 +11,12 @@
 		1B188A3722BA131700561366 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B188A3622BA131700561366 /* Tests.m */; };
 		1B188A3922BA131700561366 /* QPSimplifyForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B188A2B22BA131700561366 /* QPSimplifyForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BBD3A3522BB369500CD7BCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBD3A3422BB369500CD7BCD /* XCTest.framework */; };
-		1BBD3A3722BB369D00CD7BCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBD3A3622BB369D00CD7BCD /* XCTest.framework */; };
 		1BBD3A3922BB36A300CD7BCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBD3A3822BB36A300CD7BCD /* XCTest.framework */; };
-		1BF29CAB22BA24940046611D /* QPSimplifyForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B188A2B22BA131700561366 /* QPSimplifyForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BF29CB822BA27C80046611D /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B188A3622BA131700561366 /* Tests.m */; };
-		1BF29CBA22BA27C80046611D /* QPSimplifyForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B188A2822BA131700561366 /* QPSimplifyForm.framework */; };
+		1BE79BC222EAD98D00C22A43 /* QPChainable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE79BC122EAD98D00C22A43 /* QPChainable.framework */; };
+		1BE79BC322EAD9BD00C22A43 /* QPChainable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE79BC122EAD98D00C22A43 /* QPChainable.framework */; };
+		1BE79BC522EAD9CD00C22A43 /* QPChainable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE79BC422EAD9CD00C22A43 /* QPChainable.framework */; };
+		1BE79BC622EAD9E100C22A43 /* QPChainable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE79BC422EAD9CD00C22A43 /* QPChainable.framework */; };
+		1BE79BC822EAD9F000C22A43 /* QPChainable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE79BC722EAD9F000C22A43 /* QPChainable.framework */; };
 		1BF29CC322BA2AD00046611D /* QPSimplifyForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B188A2B22BA131700561366 /* QPSimplifyForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BF29CD022BA2B590046611D /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B188A3622BA131700561366 /* Tests.m */; };
 		1BF29CD222BA2B590046611D /* QPSimplifyForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B188A2822BA131700561366 /* QPSimplifyForm.framework */; };
@@ -29,13 +30,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1B188A2722BA131700561366;
 			remoteInfo = "QPSimplifyForm-iOS";
-		};
-		1BBD3A4022BB611100CD7BCD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1B188A1F22BA131700561366 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1BF29CA922BA24940046611D;
-			remoteInfo = "QPSimplifyForm-macOS";
 		};
 		1BBD3A4222BB611A00CD7BCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -57,15 +51,16 @@
 		1BBD3A3622BB369D00CD7BCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1BBD3A3822BB36A300CD7BCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/AppleTVOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1BE4739922BA1B96009B3792 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		1BF29CB222BA24940046611D /* QPSimplifyForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QPSimplifyForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BF29CBF22BA27C80046611D /* QPSimplifyFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPSimplifyFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE79BC122EAD98D00C22A43 /* QPChainable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QPChainable.framework; path = Carthage/Build/iOS/QPChainable.framework; sourceTree = "<group>"; };
+		1BE79BC422EAD9CD00C22A43 /* QPChainable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QPChainable.framework; path = Carthage/Build/tvOS/QPChainable.framework; sourceTree = "<group>"; };
+		1BE79BC722EAD9F000C22A43 /* QPChainable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QPChainable.framework; path = Carthage/Build/watchOS/QPChainable.framework; sourceTree = "<group>"; };
 		1BF29CCA22BA2AD00046611D /* QPSimplifyForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QPSimplifyForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF29CD722BA2B590046611D /* QPSimplifyFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPSimplifyFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF29CE222BA2C230046611D /* QPSimplifyForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QPSimplifyForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43DEE9E01E1FA707FCB74781 /* Cartfile.private */ = {isa = PBXFileReference; includeInIndex = 1; name = Cartfile.private; path = ./Cartfile.private; sourceTree = "<group>"; };
-		5684F0C9AD0FC95A2EBB920F /* QPSimplifyForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QPSimplifyForm.podspec; path = ./QPSimplifyForm.podspec; sourceTree = "<group>"; };
-		999B0317604F37BFBB5F4106 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ./README.md; sourceTree = "<group>"; };
-		BF38826636E33A1775F98FAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ./LICENSE; sourceTree = "<group>"; };
+		43DEE9E01E1FA707FCB74781 /* Cartfile.private */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Cartfile.private; path = ./Cartfile.private; sourceTree = "<group>"; };
+		5684F0C9AD0FC95A2EBB920F /* QPSimplifyForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QPSimplifyForm.podspec; path = ./QPSimplifyForm.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		999B0317604F37BFBB5F4106 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ./README.md; sourceTree = "<group>"; };
+		BF38826636E33A1775F98FAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ./LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE79BC222EAD98D00C22A43 /* QPChainable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,24 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE79BC322EAD9BD00C22A43 /* QPChainable.framework in Frameworks */,
 				1BBD3A3522BB369500CD7BCD /* XCTest.framework in Frameworks */,
 				1B188A3222BA131700561366 /* QPSimplifyForm.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BF29CAD22BA24940046611D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BF29CB922BA27C80046611D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BBD3A3722BB369D00CD7BCD /* XCTest.framework in Frameworks */,
-				1BF29CBA22BA27C80046611D /* QPSimplifyForm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE79BC522EAD9CD00C22A43 /* QPChainable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE79BC622EAD9E100C22A43 /* QPChainable.framework in Frameworks */,
 				1BBD3A3922BB36A300CD7BCD /* XCTest.framework in Frameworks */,
 				1BF29CD222BA2B590046611D /* QPSimplifyForm.framework in Frameworks */,
 			);
@@ -121,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE79BC822EAD9F000C22A43 /* QPChainable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +127,6 @@
 			children = (
 				1B188A2822BA131700561366 /* QPSimplifyForm.framework */,
 				1B188A3122BA131700561366 /* QPSimplifyFormTests.xctest */,
-				1BF29CB222BA24940046611D /* QPSimplifyForm.framework */,
-				1BF29CBF22BA27C80046611D /* QPSimplifyFormTests.xctest */,
 				1BF29CCA22BA2AD00046611D /* QPSimplifyForm.framework */,
 				1BF29CD722BA2B590046611D /* QPSimplifyFormTests.xctest */,
 				1BF29CE222BA2C230046611D /* QPSimplifyForm.framework */,
@@ -190,6 +172,9 @@
 		1BBD3A3322BB369500CD7BCD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1BE79BC122EAD98D00C22A43 /* QPChainable.framework */,
+				1BE79BC422EAD9CD00C22A43 /* QPChainable.framework */,
+				1BE79BC722EAD9F000C22A43 /* QPChainable.framework */,
 				1BBD3A3822BB36A300CD7BCD /* XCTest.framework */,
 				1BBD3A3622BB369D00CD7BCD /* XCTest.framework */,
 				1BBD3A3422BB369500CD7BCD /* XCTest.framework */,
@@ -216,14 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B188A3922BA131700561366 /* QPSimplifyForm.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BF29CAA22BA24940046611D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BF29CAB22BA24940046611D /* QPSimplifyForm.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,42 +257,6 @@
 			name = "QPSimplifyFormTests-iOS";
 			productName = QPSimplifyFormTests;
 			productReference = 1B188A3122BA131700561366 /* QPSimplifyFormTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1BF29CA922BA24940046611D /* QPSimplifyForm-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BF29CAF22BA24940046611D /* Build configuration list for PBXNativeTarget "QPSimplifyForm-macOS" */;
-			buildPhases = (
-				1BF29CAA22BA24940046611D /* Headers */,
-				1BF29CAC22BA24940046611D /* Sources */,
-				1BF29CAD22BA24940046611D /* Frameworks */,
-				1BF29CAE22BA24940046611D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "QPSimplifyForm-macOS";
-			productName = QPSimplifyForm;
-			productReference = 1BF29CB222BA24940046611D /* QPSimplifyForm.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1BF29CB422BA27C80046611D /* QPSimplifyFormTests-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BF29CBC22BA27C80046611D /* Build configuration list for PBXNativeTarget "QPSimplifyFormTests-macOS" */;
-			buildPhases = (
-				1BF29CB722BA27C80046611D /* Sources */,
-				1BF29CB922BA27C80046611D /* Frameworks */,
-				1BF29CBB22BA27C80046611D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1BBD3A4122BB611100CD7BCD /* PBXTargetDependency */,
-			);
-			name = "QPSimplifyFormTests-macOS";
-			productName = QPSimplifyFormTests;
-			productReference = 1BF29CBF22BA27C80046611D /* QPSimplifyFormTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		1BF29CC122BA2AD00046611D /* QPSimplifyForm-tvOS */ = {
@@ -390,7 +331,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B188A2222BA131700561366 /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 1B188A2222BA131700561366 /* Build configuration list for PBXProject "QPSimplifyForm" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -404,8 +345,6 @@
 			targets = (
 				1B188A2722BA131700561366 /* QPSimplifyForm-iOS */,
 				1B188A3022BA131700561366 /* QPSimplifyFormTests-iOS */,
-				1BF29CA922BA24940046611D /* QPSimplifyForm-macOS */,
-				1BF29CB422BA27C80046611D /* QPSimplifyFormTests-macOS */,
 				1BF29CC122BA2AD00046611D /* QPSimplifyForm-tvOS */,
 				1BF29CCC22BA2B590046611D /* QPSimplifyFormTests-tvOS */,
 				1BF29CD922BA2C230046611D /* QPSimplifyForm-watchOS */,
@@ -422,20 +361,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1B188A2F22BA131700561366 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BF29CAE22BA24940046611D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BF29CBB22BA27C80046611D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -481,21 +406,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BF29CAC22BA24940046611D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BF29CB722BA27C80046611D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BF29CB822BA27C80046611D /* Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1BF29CC422BA2AD00046611D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,11 +435,6 @@
 			isa = PBXTargetDependency;
 			target = 1B188A2722BA131700561366 /* QPSimplifyForm-iOS */;
 			targetProxy = 1BBD3A3E22BB60E700CD7BCD /* PBXContainerItemProxy */;
-		};
-		1BBD3A4122BB611100CD7BCD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1BF29CA922BA24940046611D /* QPSimplifyForm-macOS */;
-			targetProxy = 1BBD3A4022BB611100CD7BCD /* PBXContainerItemProxy */;
 		};
 		1BBD3A4322BB611A00CD7BCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -665,6 +570,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QPSimplifyForm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -688,6 +597,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QPSimplifyForm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -707,6 +620,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QPSimplifyFormTests/Prefix.pch;
 				INFOPLIST_FILE = QPSimplifyFormTests/Info.plist;
@@ -726,6 +643,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QPSimplifyFormTests/Prefix.pch;
 				INFOPLIST_FILE = QPSimplifyFormTests/Info.plist;
@@ -741,88 +662,6 @@
 			};
 			name = Release;
 		};
-		1BF29CB022BA24940046611D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = QPSimplifyForm/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.keqiongpan.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = QPSimplifyForm;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		1BF29CB122BA24940046611D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = QPSimplifyForm/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.keqiongpan.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = QPSimplifyForm;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1BF29CBD22BA27C80046611D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = QPSimplifyFormTests/Prefix.pch;
-				INFOPLIST_FILE = QPSimplifyFormTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.keqiongpan.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = QPSimplifyFormTests;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		1BF29CBE22BA27C80046611D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = QPSimplifyFormTests/Prefix.pch;
-				INFOPLIST_FILE = QPSimplifyFormTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.keqiongpan.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = QPSimplifyFormTests;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 		1BF29CC822BA2AD00046611D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -831,6 +670,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = QPSimplifyForm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -853,6 +696,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = QPSimplifyForm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -871,6 +718,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QPSimplifyFormTests/Prefix.pch;
 				INFOPLIST_FILE = QPSimplifyFormTests/Info.plist;
@@ -889,6 +740,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QPSimplifyFormTests/Prefix.pch;
 				INFOPLIST_FILE = QPSimplifyFormTests/Info.plist;
@@ -911,6 +766,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = QPSimplifyForm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -933,6 +792,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				INFOPLIST_FILE = QPSimplifyForm/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -950,7 +813,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B188A2222BA131700561366 /* Build configuration list for PBXProject "PROJECT" */ = {
+		1B188A2222BA131700561366 /* Build configuration list for PBXProject "QPSimplifyForm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B188A3A22BA131700561366 /* Debug */,
@@ -973,24 +836,6 @@
 			buildConfigurations = (
 				1B188A4022BA131700561366 /* Debug */,
 				1B188A4122BA131700561366 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1BF29CAF22BA24940046611D /* Build configuration list for PBXNativeTarget "QPSimplifyForm-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BF29CB022BA24940046611D /* Debug */,
-				1BF29CB122BA24940046611D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1BF29CBC22BA27C80046611D /* Build configuration list for PBXNativeTarget "QPSimplifyFormTests-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BF29CBD22BA27C80046611D /* Debug */,
-				1BF29CBE22BA27C80046611D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
