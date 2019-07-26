@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'QPSimplifyForm'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QPSimplifyForm.'
+  s.summary          = 'Use simple declarative syntax for complex forms (or other cells) programming.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Provides a declarative syntax composed of chained-expressions started by
+QPForm(), QPSection(), QPXXXField() and other functions, which is used to
+describe the structure, options, validation rules, data bindings and other
+information of forms (or other cells), so as to simplify the complex forms
+(or other cells) programming.
                        DESC
 
   s.homepage         = 'https://github.com/keqiongpan/QPSimplifyForm'
